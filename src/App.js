@@ -2,6 +2,7 @@ import { ThemeProvider } from "styled-components";
 import './App.css';
 import {Header , Main , Footer} from './components/Layout';
 import {NavBar,NavItem,NavLink} from './components/Navbar';
+import {BsBookHalf} from 'react-icons/bs';
 
 
 
@@ -28,6 +29,11 @@ function App() {
     <ThemeProvider theme={theme}>
     <Header>
       <NavBar>
+      <NavItem href="#">
+          <NavLink>
+              <BsBookHalf/>
+          </NavLink>
+        </NavItem>
         <NavItem href="#">
           <NavLink>
               Catalog
