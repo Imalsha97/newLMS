@@ -1,9 +1,14 @@
 
 import './App.css';
+import {Header , Main , Footer} from './components/Layout'
 
 function App() {
   return (
-    <h1 style={{}}>hello imalsha</h1>
+    <>
+    <Header>h</Header>
+    <Main>m</Main>
+    <Footer>f</Footer>
+    </>
   );
 }
 
