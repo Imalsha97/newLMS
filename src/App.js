@@ -5,6 +5,8 @@ import {NavBar,NavItem,NavLink} from './components/Navbar';
 import {BsBookHalf} from 'react-icons/bs';
 
 
+import Dashboard from "./containers/Dashboard";
+
 
 function App() {
   const theme = {
@@ -46,7 +48,9 @@ function App() {
         </NavItem>
       </NavBar>
     </Header>
-    <Main>m</Main>
+    <Main>
+      <Dashboard/>
+    </Main>
     <Footer>f</Footer>
     </ThemeProvider>
   );
